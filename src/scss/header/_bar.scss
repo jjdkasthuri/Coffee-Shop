@@ -1,0 +1,29 @@
+@use "base/mixins" as m;
+
+.bar {
+    display: flex;
+    flex-direction: column;
+
+    @include m.tablet { 
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .log {
+        width: 50%;
+        margin: 0 auto;
+        transition: transform .5s;
+
+        &:hover {
+            transform: rotate(-45deg);
+        }
+
+        @include m.tablet { 
+            width: 20rem;
+            margin: 0;
+        }
+
+    }
+
+}

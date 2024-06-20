@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffe Shop with SASS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Bona+Nova&family=Raleway:wght@700;900&family=Roboto:ital,wght@0,400;0,700;0,900;1,400&family=Secular+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./build/css/app.css">
+</head>
+<body>
+    <header class="header header-contact">
+        <div class="header-content  box">
+            <div class="bar">
+                <div class="log">
+                    <a href="index.html"><img src="build/img/logo.svg" alt="page log"></a>
+                </div>
+                <nav class="nav-principal">
+                    <a href="index.html">Home</a>
+                    <a href="aboutus.html">About Us</a>
+                    <a href="process.html">Coffee process</a>
+                    <a href="menu.html">Menu</a>
+                    <a href="gallery.html">Gallery</a>
+                    <a class="active" href="contact.html">Contact Us</a>
+                </nav>
+            </div>
+            <div class="header-text">
+                <h1>Better grains, better coffee</h1>
+            </div>
+        </div>
+    </header>
+
+    <main class="box main-content">
+
+        <h2><span>Take your</span> Reservation</h2>
+
+        <div class="content-contact">
+
+            <form class="form">
+
+                <div class="field">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" placeholder="Type your name..." required>
+                </div>
+
+                <div class="field">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" placeholder="Type your email...">
+                </div>
+
+                <div class="field">
+                    <label>Number of people:</label>
+                    <select>
+                        <option disabled selected value="">-- Your choice --</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="+">+4</option>
+                    </select>
+                </div>
+
+                <div class="field">
+                    <label for="hour">Hour:</label>
+                    <input type="time" id="hour">
+                </div>
+
+                <div class="field">
+                    <label for="date">Date:</label>
+                    <input type="date" id="date">
+                </div>
+
+                <div class="field">
+                    <input type="submit" value="Send">
+                </div>
+
+            </form>
+
+        </div>
+
+    </main>
+
+    <footer class="footer">
+
+        <div class="box footer-content bg-white">
+            <div class="footer-box location">
+                <h3>Location</h3>
+                <p><N0-34>
+                <A></A> Nader Street</p>
+                <p>Kollupitiya</p>
+                <P>Colombo</P>
+            </div>
+            <div class="footer-box reservation">
+                <h3>Reservation</h3>
+                <p>Phone. +9474 0990 879</p>
+                <a href="tel: +9474 0990 879">Call us</a>
+            </div>
+            <div class="footer-box office-hours">
+                <h3>Office Hours</h3>
+                <p>Mon-Thur: 10:00 - 22:00</p>
+                <p>Fri-Satu: 09:00 - 24:00</p>
+                <p>Sunday: Close</p>
+            </div>
+        </div>
+        <div class="my-footer">
+            <div class="logs">
+                <a href="#"><img src="build/img/linkedin-logo.svg" alt="LinkedIn Log"></a>
+                <a href="#"><img src="build/img/instagram-logo.svg" alt="LinkedIn Log"></a>
+                <a href="#"><img src="build/img/git-hub-logo.svg" alt="GitHub Log"></a>
+            </div>
+            <p class="terms">Terms of Use - Privacy Policy</p>
+            <div class="firma">
+                <p>© 2024 <b>JJDKasthuri</b></p>
+                
+            </div>
+            <div class="final-line"></div>
+        </div>
+        
+    </footer>
+
+    <script src="js/imagenes.js"></script>
+
+</body>
+</html>
